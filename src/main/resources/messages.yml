@@ -1,0 +1,65 @@
+Messages:
+  General:
+    Prefix: '&7[&6&lBounty&7] '
+    MissingArguments: '&cInusfficient arguments.'
+    Help:
+    - '&7---------------------[&6&lBounty&7]---------------------'
+    - '&6/bounty set <player> <amount> &7- &eSet a bounty on a player.'
+    - '&6/bounty reload &7- &eReload configuration files.'
+    - '&6/bounties &7- &eSee all the bounties.'
+    - '&7--------------------------------------------------'
+  Set:
+    PlayerOffline: '&cThis player is currently offline!'
+    CannotBountyYourself: '&cYou can''t set a bounty on yourself!'
+    NotEnoughMoney: '&cYou don''t have enough money to set this bounty!'
+    Succesful: '&aYou have succesfully set a bounty on &6%player% &aworth&e: &6%worth%&a!'
+    SuccesfulToTarget: '&aPlayer &6%player% &ahas set a bounty on you worth&e: &6%worth%&a!'
+    Broadcast:
+    - '&7---------------------[&6&lBounty&7]---------------------'
+    - ''
+    - '    &6Player &e&l%byplayer% &6has set a bounty on &e&l%forplayer%&6!'
+    - '    &6The bounty is &e&l%worth% &6worth!'
+    - ''
+    - '&7--------------------------------------------------'
+  Reload:
+    Succesful: '&aConfiguration file are succesfully reloaded!'
+  Killed:
+    PlayerDeathAndLostBounty: '&cYou got killed by %killer% and you lost your bounty worth %worth%!'
+    PlayerDeathAndReceivedBounty: '&aYou killed &e%player% &awith a bounty worth &e%worth%&a!'
+  Inventories:
+    Main:
+      Title: '&6&lBounties'
+      AllBounties:
+        DisplayName: '&e&lList Bounties'
+        Lore:
+        - '&aList all bounties that'
+        - '&aare currently placed.'
+      YourBounties:
+        DisplayName: '&e&lList Your Bounties'
+        Lore:
+        - '&aList all bounties that'
+        - '&ayou have placed.'
+    AllBounties:
+      Title: '&6&lBounties &7(&ePage: %page%&7)'
+      Previous:
+        DisplayName: '&ePrevious page'
+      Next:
+        DisplayName: '&eNext page'
+      Close:
+        DisplayName: '&cClose menu'
+      Bounty:
+        DisplayName: '&e&lBounty %player%'
+        Lore:
+        - '&7&m---------------'
+        - '&6Worth&7: &e%worth%'
+        - '&6Placed by&7: &e%byplayer%'
+        - '&7&m---------------'
+    YourBounties:
+      Title: '&6&lBounties &7(&ePage: %page%&7)'
+      Previous:
+        DisplayName: '&ePrevious page'
+      Next:
+        DisplayName: '&eNext page'
+      Close:
+        DisplayName: '&cClose menu'
+    

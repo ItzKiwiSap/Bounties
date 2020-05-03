@@ -1,0 +1,12 @@
+name: XigonMCBounty
+version: 1.0.0
+author: Itz_KiwiSap_
+main: nl.itz_kiwisap_.spigot.xigonmc.bounty.Bounties
+api-version: 1.13
+
+commands:
+  bounty:
+    description: Set a bounty on a player or reload the configuration files.
+  bounties:
+    description: See a list of all bounties or the bounties you have placed.
+    usage: /<command>
